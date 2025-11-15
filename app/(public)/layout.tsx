@@ -27,6 +27,9 @@ export default async function Layout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Smart Culture</title>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
