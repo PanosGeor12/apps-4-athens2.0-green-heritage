@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { Button } from "@/components/ui/button";
 import { User } from "lucide-react";
-import { Suspense } from "react";
+import LoginOutBtn from "@/components/LoginOutButton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,20 +20,17 @@ export const metadata: Metadata = {
   description: "A project that connects culture with citizens",
 };
 
-export default async function Layout({
+export default function Layout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <head>
-        <title>Smart Culture</title>
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Suspense>{children}</Suspense>
+        {children}
       </body>
     </html>
   );

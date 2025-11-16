@@ -90,7 +90,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-cyan-600 via-blue-700 to-blue-900 px-4 py-16 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden bg-gradient-to-br from-green-400 via-green-600 to-green-900 px-4 py-16 sm:px-6 lg:px-8">
         <div className="absolute inset-0 opacity-10">
           <div
             className="absolute inset-0"
@@ -120,7 +120,7 @@ export default function Home() {
                   className="w-full rounded-xl border-0 bg-gray-50 py-3 pl-10 pr-4 outline-none focus:ring-2 focus:ring-cyan-500"
                 />
               </div>
-              <Button className="rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700">
+              <Button className="rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 self-center">
                 <Search className="mr-2 h-5 w-5" />
                 Search
               </Button>
@@ -224,7 +224,7 @@ export default function Home() {
 
       {/* Bottom CTA */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="overflow-hidden rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-600 p-8 text-center shadow-xl sm:p-12">
+        <div className="overflow-hidden rounded-2xl bg-gradient-to-br from-green-400 to-green-600 p-8 text-center shadow-xl sm:p-12">
           <Compass className="mx-auto mb-4 h-12 w-12 text-white" />
           <h2 className="mb-4 text-white">Ready to Start Your Journey?</h2>
           <p className="mb-6 text-lg text-white/90">
